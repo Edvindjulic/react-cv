@@ -10,6 +10,7 @@ import {
 import App from "./App.tsx";
 import About from "./pages/About.tsx";
 import StartPage from "./pages/Startpage.tsx";
+import "./index.css";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
