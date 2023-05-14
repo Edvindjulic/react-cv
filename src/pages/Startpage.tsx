@@ -1,5 +1,7 @@
-import { Box } from "@mui/material";
+import Box from "@mui/material/Box";
 import Hero from "../components/Hero";
+import Knowledge from "../components/Knowledge";
+import WorkExp from "../components/WorkExp";
 
 export default function Startpage() {
   return (
@@ -7,11 +9,12 @@ export default function Startpage() {
       sx={{
         width: "100%",
         display: "flex",
-        flexDirection: "row",
-        backgroundColor: "#F8FAFB",
+        flexDirection: "column",
       }}
     >
       <Hero />
+      <WorkExp />
+      <Knowledge />
     </Box>
   );
 }
